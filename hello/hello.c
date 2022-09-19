@@ -6,8 +6,14 @@
  * Return: 0/nothing.
  * */
 
-int main(void)
+static int i;
+static int i = 40;
+static int i;
+
+int main()
 {
-  printf("Muhammed Musa");
-  return(0);
+static int i = 20;
+
+printf("%d", i);
+  return 0;
 }
